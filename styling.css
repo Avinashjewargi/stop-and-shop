@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+p{
+    color: rgb(28, 221, 28);
+    background-color: rgb(46, 43, 43);
+    background: black;
+    
+}
+h1{
+    color: rgb(46, 46, 223);
+    text-align: center;
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+
+}
+button{
+    background-color: yellow;
+    color: black;
+}
+#logo{
+    color: yellow;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+
+}
+/* #p1{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: pink;
+}
+#p2{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: pink;
+}
+#p3{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: pink;
+} */
+.packages .box-container .box{
+    border: 2px solid black;
+    box-shadow: var(--box-shadow);
+    background: rgb(225, 222, 222);
+    cursor: pointer;
+   
+}
+.packages .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 0.2rem;
+}
+.packages .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    transition: 0.2s linear;
+}
+.packages .box-container .box .image{
+    height: 20rem;
+    overflow: hidden;
+}
+.packages .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+.packages .box-container .box .content h3 {
+    font-size: 2.5rem;
+    color: rgb(105, 100, 100);
+}
+.packages .box-container .box .content p{
+    font-size: 20px;
+    color: grey;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+/* .btn{
+    font-size: 25px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+} */
+a{
+    text-decoration: none;
+}
+.packages .box-container .box:hover .image img{
+    transform: scale(1.5);
+}
